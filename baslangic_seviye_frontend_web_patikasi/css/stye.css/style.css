@@ -1,0 +1,79 @@
+/* Genel ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header ayarları */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Sayfa başlığı için stil */
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  /* Menü stil ayarları */
+  nav ul {
+    list-style-type: none;
+    /* padding: 1em; */
+    /* padding: 10% 0; */
+    /* padding: 10px 50px 20px; */
+    /* padding: 10px 50px 30px 0; */
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  /* Ana içerik kısmı */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Ana sayfa başlığı */
+  main h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Alt başlık */
+  main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraf */
+  main p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Liste */
+  main ul {
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  
+  main ul li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
