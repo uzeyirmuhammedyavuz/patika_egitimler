@@ -1,0 +1,95 @@
+/* Genel yapı */
+body {
+    background-color: #e1c9a8; /* Arka plan rengini belirtiyoruz */
+    font-family: Cursive; /* Yazı tipini belirtiyoruz */
+    color: black; /* Genel yazı rengi */
+    margin: 0;
+    padding: 20px; /* Sayfa kenarlarından boşluk bırakıyoruz */
+}
+
+/* Başlık kısmı */
+header h1 {
+    /* text-align: center; Başlığı ortalıyoruz */
+    font-size: 3em; /* Başlık boyutunu artırıyoruz */
+    color: #8b4513; /* Başlık rengini kahverengi tonunda belirliyoruz */
+    font-style: italic; /* Başlığa italik stil veriyoruz */
+    margin-bottom: 20px; /* Başlığın altına boşluk bırakıyoruz */
+}
+
+header {
+
+}
+
+/* Giriş paragrafı */
+.intro-text {
+    /* font-size: 1.2em; /* Yazı boyutunu büyütüyoruz */
+    /* font-style: italic; Metne italik stil ekliyoruz */
+    line-height: 1.5; /* Satırlar arasında boşluk */
+    /* text-align: left; Metni iki yana yaslıyoruz */
+    font-weight: bold;
+    margin-right: 150px;
+}
+
+/* Tarif sahibi kısmı */
+.author {
+    /* font-weight: bold; Tarif sahibinin ismini kalın yapıyoruz */
+    /* margin-top: 10px; Üstüne biraz boşluk bırakıyoruz */
+    /* font-size: 1.1em; Yazı boyutunu artırıyoruz */
+    margin-right: 150px;
+}
+
+/* Tarif bilgileri */
+.recipe-info {
+    display: flex; /* Bilgileri yatay hizalamak için flexbox kullanıyoruz */
+    justify-content: space-between; /* Bilgiler arasındaki boşluğu açıyoruz */
+    margin: 20px 0; /* Üst ve alt boşluklar */
+    font-size: 1.1em; /* Yazı boyutunu artırıyoruz */
+    text-decoration: underline;
+}
+
+/* Malzeme listesi başlığı */
+.ingredients h2 {
+    color: white; /* Başlık rengi */
+    font-size: 1.8em; /* Başlık boyutu */
+    background-color: #973103;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: inline-block; /* Sadece yazının kapladığı alan kadar genişlik */
+}
+
+/* Malzeme listesi */
+.ingredients ul {
+    list-style-type: disc; /* Disk şeklinde liste işaretleri */
+    margin-left: 40px; /* Sol tarafta boşluk */
+    font-size: 1.1em; /* Yazı boyutunu artırıyoruz */
+}
+
+/* Yapılış aşamaları başlığı */
+.instructions h2 {
+    color: white; /* Başlık rengi */
+    font-size: 1.8em; /* Başlık boyutu */
+    background-color: #973103;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: inline-block; /* Sadece yazının kapladığı alan kadar genişlik */
+}
+
+/* Yapılış aşamaları listesi */
+.instructions ol {
+    list-style-type: decimal; /* Sıralı liste numaralandırma */
+    margin-left: 40px; /* Sol tarafta boşluk */
+    font-size: 1.1em; /* Yazı boyutunu artırıyoruz */
+}
+
+/* Footer kısmı */
+footer p {
+    text-align: right; /* Sağ tarafa yaslıyoruz */
+    font-size: 1.5em; /* Yazı boyutunu artırıyoruz */
+    font-weight: bold; /* Kalın yazı */
+    margin-top: 40px; /* Üst boşluk */
+    margin-right: 150px;
+}
+
+main {
+    margin: 0px 100px 0px 300px;
+}
