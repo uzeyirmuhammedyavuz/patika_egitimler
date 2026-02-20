@@ -1,0 +1,70 @@
+body {
+    font-family: "Times New Roman", Times, Serif;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+}
+
+.logo img {
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+.search-section {
+    background-color: #f1f1f1;
+    padding: 10px 0 15px 0;
+    margin-bottom: 2px;
+}
+
+.search-section p {
+    margin: 5px 0 10px 0;
+    font-size: 15px;
+}
+
+.search-input {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.columns {
+    display: flex;
+    gap: 2px;
+}
+
+.col {
+    flex: 1;
+    padding: 15px 10px;
+    font-size: 14px;
+}
+
+.col-left { background-color: #7de5d3; }
+.col-center { background-color: #70c6c1; }
+.col-right { background-color: #62a7a5; }
+
+.col p {
+    margin: 0 0 5px 0;
+}
+
+.email-input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.col a {
+    color: #0000ee;
+    text-decoration: underline;
+    line-height: 1.5;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 12px;
+}
